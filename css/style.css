@@ -1,0 +1,29 @@
+
+.social{
+  margin: 5px;
+  border-radius: 20%;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 20px;
+}
+
+.grid-item {
+    text-align: left;
+    margin: 75px;
+}
+.grid-pic {
+margin: auto;
+    border-radius: 50%;
+}
+
+.überschrift {
+  text-align: center;
+}
+
+section {
+  margin-bottom: 20px;
+}
