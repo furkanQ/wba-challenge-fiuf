@@ -59,6 +59,9 @@ text-decoration: underline;
 display: grid;
 grid-template-columns: auto auto auto;
 text-decoration: underline;
+<<<<<<< HEAD
+text-align: center;
+=======
 font-size: 9pt;
 
 }
@@ -66,4 +69,5 @@ font-size: 9pt;
 .grid-item2{
   text-align: left;
 
+>>>>>>> 82937d0e7d5445372e97045897180e7ef2585f09
 }
