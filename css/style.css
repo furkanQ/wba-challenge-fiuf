@@ -28,11 +28,21 @@ section {
 }
 
 h2 {
+  font-size: 16pt;
+color: blue;
+font-family: arial black;
   font-size: 12pt;
 }
 
 .linie {
   display: block;
   margin: auto;
+}
+
+.footer{
+  text-align: left;
   padding-bottom: 40px;
 }
+ p {
+   font-size: 12pt;
+ }
