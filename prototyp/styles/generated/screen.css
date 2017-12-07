@@ -6856,7 +6856,7 @@ body.scale--09 .screen {
     right: 220px;
   height: 750px;
   width: 1080px;
-  opacity: 0.9;
+  opacity: 0.0;
   background-color: black;
   color: white;
 
@@ -6864,6 +6864,9 @@ body.scale--09 .screen {
 
 .isvisible {
   display: block;
+  opacity: 1.0;
+    transition: opacity 2s;
+      transition: display 2s;
 }
 
 .isnotvisible {

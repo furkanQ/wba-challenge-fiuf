@@ -22,6 +22,7 @@ margin: auto;
 
 .überschrift {
   text-align: center;
+  font-family: lucida sans;
 }
 
 section {
@@ -32,15 +33,22 @@ h2 {
   font-size: 16pt;
   text-align: left;
   padding-left: 38px;
+  font-family: lucida sans;
+
 }
 
-h3{
+h3 {
 font-size: 15pt;
 padding-bottom:
 
+
+
+
 }
+
 .doku {
   padding: 50px;
+
 }
 
 .linie {
@@ -50,6 +58,7 @@ padding-bottom:
 .logo2{
   display: block;
     float: right;
+    margin: auto;
 }
 .footer{
   text-align: left;
@@ -71,11 +80,11 @@ text-align: center;
 .grid-container2 {
 display: grid;
 grid-template-columns: auto auto auto;
-text-align: center;
+text-align: justify;
 font-size: 9pt;
 width: 20%;
 margin:auto;
-margin-top: 50px;
+
 
 }
 .grid-item2 {
@@ -87,7 +96,10 @@ display: grid;
 grid-template-columns: auto auto auto;
 font-size: 9pt;
 width: auto;
-margin:auto;
+margin-bottom:0;
+margin-top: auto;
+margin-left: auto;
+margin-right: auto;
 }
 .grid-item3 {
   text-align: left;
