@@ -28,19 +28,28 @@ section {
 }
 
 h2 {
+<<<<<<< HEAD
   font-size: 16pt;
 color: blue;
 font-family: arial black;
+=======
+  font-size: 12pt;
+}
+>>>>>>> 791138992ff9c2ad183392ac5384b027b163fce8
 
  }
 .linie {
   display: block;
   margin: auto;
+<<<<<<< HEAD
 }
 
 .footer{
   text-align: left;
   ;
+=======
+  padding-bottom: 40px;
+>>>>>>> 791138992ff9c2ad183392ac5384b027b163fce8
 }
  .p {
    font-size: 12pt;
