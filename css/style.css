@@ -55,8 +55,8 @@ padding-bottom:
   text-align: left;
   border-top: 1px solid;
   border-color: grey;
-  padding: 30px;
-  margin: 30px;
+  padding: 60px;
+  background-color: #f2f2f2;
 
 }
  li {
@@ -70,14 +70,15 @@ text-align: center;
 }
 .grid-container2 {
 display: grid;
-grid-template-columns: 25% 25% 75%;
+grid-template-columns: auto auto auto;
 text-align: center;
 font-size: 9pt;
 width: 20%;
 margin:auto;
+margin-top: 50px;
 
 }
-.grid-item2{
+.grid-item2 {
   text-align: left;
 }
 
@@ -88,11 +89,14 @@ font-size: 9pt;
 width: auto;
 margin:auto;
 }
-.grid-item3{
+.grid-item3 {
   text-align: left;
 }
-.social2{
+.social2 {
   margin: 2px;
   border-radius: 30%;
-margin-right: auto;
+}
+
+.social3 {
+  float: right;
 }
