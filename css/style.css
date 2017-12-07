@@ -17,7 +17,6 @@
 }
 .grid-pic {
 margin: auto;
-    border-radius: 50%;
 }
 
 .überschrift {
@@ -26,4 +25,17 @@ margin: auto;
 
 section {
   margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 12pt;
+
+.linie {
+  display: block;
+  margin: auto;
+<<<<<<< HEAD
+  padding-bottom: 40px;
+=======
+
+>>>>>>> 013b189e5ed7a98af4339a844a24e98e4eef0a5f
 }
