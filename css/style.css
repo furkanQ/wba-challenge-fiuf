@@ -9,6 +9,7 @@
   display: grid;
   grid-template-columns: 50% 50%;
   margin-top: 20px;
+  font-family: lucida sans;
 }
 
 .grid-item {
@@ -21,6 +22,7 @@ margin: auto;
 
 .überschrift {
   text-align: center;
+  font-family: lucida sans;
 }
 
 section {
@@ -30,8 +32,9 @@ section {
 h2 {
   font-size: 16pt;
 color: blue;
-font-family: arial black;
+font-family: lucida sans;
   text-decoration: underline;
+  text-align: center;
 }
 
 .linie {
@@ -42,12 +45,13 @@ font-family: arial black;
 .footer{
   text-align: left;
   padding-bottom: 40px;
-
+background-color: lightblue;
 
 }
  li {
-   font-size: 12pt;
+   font-size: 10pt;
    padding-bottom: 5px;
+font-family: lucida sans;
  }
 
 p.footer {
@@ -60,6 +64,8 @@ display: grid;
 grid-template-columns: auto auto auto;
 text-decoration: underline;
 font-size: 9pt;
+width: 20%;
+margin:auto;
 
 }
 
