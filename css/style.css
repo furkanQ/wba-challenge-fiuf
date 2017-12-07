@@ -22,6 +22,7 @@ margin: auto;
 
 .überschrift {
   text-align: center;
+  font-family: lucida sans;
 }
 
 section {
@@ -32,13 +33,13 @@ h2 {
   font-size: 16pt;
   text-align: left;
   padding-left: 38px;
+  font-family: lucida sans;
 
 }
 
 h3 {
 font-size: 15pt;
 padding-bottom:
-text: underline;
 
 
 
