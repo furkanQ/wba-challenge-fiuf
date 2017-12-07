@@ -53,6 +53,7 @@ text: underline;
 .linie {
   display: block;
   margin: auto;
+  padding-bottom: 30px;
 }
 .logo2{
   display: block;
