@@ -50,14 +50,20 @@ font-family: arial black;
    padding-bottom: 5px;
  }
 
-p {
+p.footer {
 text-align: center;
+text-decoration: underline;
+
+}
+.grid-container2 {
+display: grid;
+grid-template-columns: auto auto auto;
 text-decoration: underline;
 font-size: 9pt;
+
 }
 
-p1 {
-text-decoration: underline;
-text-align: center;
-font-size: 9pt; 
+.grid-item2{
+  text-align: left;
+
 }
