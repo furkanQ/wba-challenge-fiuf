@@ -22,7 +22,6 @@ margin: auto;
 
 .überschrift {
   text-align: center;
-  font-family: lucida sans;
 }
 
 section {
@@ -31,11 +30,8 @@ section {
 
 h2 {
   font-size: 16pt;
-color: blue;
-font-family: lucida sans;
-  text-decoration: underline;
   text-align: left;
-  padding-left: 30px;
+  padding-left: 38px;
 }
 
 h3{
@@ -57,32 +53,32 @@ padding-bottom:
 }
 .footer{
   text-align: left;
-  padding-bottom: 40px;
-background-color: lightblue;
+  border-top: 1px solid;
+  border-color: grey;
+  padding: 60px;
+  background-color: #f2f2f2;
 
 }
  li {
    font-size: 10pt;
    padding-bottom: 5px;
-font-family: lucida sans;
  }
 
 p.footer {
 text-align: center;
-text-decoration: underline;
 
 }
 .grid-container2 {
 display: grid;
 grid-template-columns: auto auto auto;
-text-decoration: underline;
 text-align: center;
 font-size: 9pt;
 width: 20%;
 margin:auto;
+margin-top: 50px;
 
 }
-.grid-item2{
+.grid-item2 {
   text-align: left;
 }
 
@@ -93,11 +89,14 @@ font-size: 9pt;
 width: auto;
 margin:auto;
 }
-.grid-item3{
+.grid-item3 {
   text-align: left;
 }
-.social2{
+.social2 {
   margin: 2px;
   border-radius: 30%;
-margin-right: auto;
+}
+
+.social3 {
+  float: right;
 }

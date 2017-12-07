@@ -6850,7 +6850,7 @@ body.scale--09 .screen {
   width: 100%; }
 
 .showpopup {
-  display: block;
+  display: none;
     position: absolute;
     top: 0px;
     right: 220px;
@@ -6860,6 +6860,14 @@ body.scale--09 .screen {
   background-color: black;
   color: white;
 
+}
+
+.isvisible {
+  display: block;
+}
+
+.isnotvisible {
+  display: none;
 }
 
 .schloss {
@@ -6885,6 +6893,13 @@ float: left;
 .showpopup h1 {
   padding-left: 50px;
   padding-top: 30px;
+}
+
+.showpopup p {
+  padding-left: 550px;
+  padding-top: 50px;
+  padding-right: 150px;
+  font-size: 16px;
 }
 
 /* Screen Layouts

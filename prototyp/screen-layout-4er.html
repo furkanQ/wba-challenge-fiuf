@@ -110,16 +110,18 @@
         </div>
     </main>
     <div class="show">
-      <img class="show1" src="images/main-control-bar/phone-showme.svg" alt="">
-      <img class="show2" src="images/main-control-bar/phone-showme.svg" alt="">
-      <img class="show3" src="images/main-control-bar/phone-showme.svg" alt="">
+      <img class="show1" src="images/main-control-bar/phone-showme.svg" alt="" id="showmeid">
+      <img class="show2" src="images/main-control-bar/phone-showme.svg" alt="" id="showmeid2">
+      <img class="show3" src="images/main-control-bar/phone-showme.svg" alt="" id="showmeid3">
     </div>
 
-<section class="showpopup">
+<section class="showpopup" id="popup">
 
   <h1>Schloss Schwanenberg</h1>
   <img class="schloss" src="images/schloss.jpg" alt="">
   <img class="schloss2" src="images/schloss2.jpg" alt="">
+  <p>Schloss Schwanenberg liegt malerisch über dem Tal der Itz inmitten eines englisch-romantischen Landschaftsgartens nordöstlich von Coburg. Es ist ein in Deutschland bemerkenswert frühes Beispiel neugotischer Architektur. 1805 hat Herzog Franz Friedrich Anton von Sachsen-Coburg-Saalfeld den im Kern mittelalterlichen ehemaligen Rittersitz der Herren von Rosenau auf Drängen des damaligen Erbprinzen Ernst erworben. Kaum an der Regierung, ließ dieser den verfallenen Bau in den Jahren 1808 - 1817 im neugotischen Stil umgestalten. Ernst I. wollte die Rosenau als mittelalterlichen Rittersitz wiederbeleben. Durch neugotische Spitzbogenarchitekturen und Maßwerkornamente sollte das romantisch- mittelalterliche Erscheinungsbild des Schlosses betont werden.
+</p>
 
 </section>
 
@@ -143,5 +145,27 @@
 
     <!-- Verschiedene Layouts via Query String -->
     <script src="scripts/tesla-main-control.js"#></script>
+
+    <script>
+    document.getElementById("showmeid").addEventListener("click", function(){
+    document.getElementById("popup").classList.add("isvisible");});
+  </script>
+
+<script>
+document.getElementById("showmeid2").addEventListener("click", function(){
+document.getElementById("popup").classList.add("isvisible");});
+</script>
+
+<script>
+document.getElementById("showmeid3").addEventListener("click", function(){
+  document.getElementById("popup").classList.add("isvisible");
+});
+</script>
+
+<script>
+document.getElementById("popup").addEventListener("click", function(){
+    document.getElementById("popup").classList.remove("isvisible");
+  });
+</script>
 
 </body>
