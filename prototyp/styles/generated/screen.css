@@ -6858,7 +6858,33 @@ body.scale--09 .screen {
   width: 1080px;
   opacity: 0.9;
   background-color: black;
+  color: white;
 
+}
+
+.schloss {
+  position: absolute;
+  width: 400px;
+  padding-bottom: 50px;
+  opacity: 1.0;
+  top: 100px;
+  left: 50px;
+  float: left;
+}
+
+.schloss2 {
+  position: absolute;
+  width: 400px;
+  padding-bottom: 50px;
+  opacity: 1.0;
+  top: 350px;
+left: 50px;
+float: left;
+}
+
+.showpopup h1 {
+  padding-left: 50px;
+  padding-top: 30px;
 }
 
 /* Screen Layouts
