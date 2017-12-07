@@ -7007,3 +7007,7 @@ body.scale--09 .screen {
   right: 0;
   bottom: 0;
   left: 0; }
+
+.main-control__switch--showme{
+  width: 10px;
+}
