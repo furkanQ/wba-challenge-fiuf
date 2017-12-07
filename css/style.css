@@ -37,6 +37,7 @@ font-family: arial black;
 .linie {
   display: block;
   margin: auto;
+  padding-bottom: 40px;
 }
 
 .footer{
