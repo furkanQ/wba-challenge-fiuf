@@ -67,6 +67,9 @@ text-decoration: underline;
 display: grid;
 grid-template-columns: auto auto auto;
 text-decoration: underline;
+<<<<<<< HEAD
+text-align: center;
+=======
 font-size: 9pt;
 width: 20%;
 margin:auto;
@@ -92,4 +95,5 @@ margin:auto;
   border-radius: 20%;
   margin-right: auto;
 
+>>>>>>> 82937d0e7d5445372e97045897180e7ef2585f09
 }
