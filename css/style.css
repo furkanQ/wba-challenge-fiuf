@@ -30,4 +30,5 @@ section {
 .linie {
   display: block;
   margin: auto;
+  padding-bottom: 40px;
 }
