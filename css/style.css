@@ -31,7 +31,7 @@ h2 {
   font-size: 16pt;
 color: blue;
 font-family: arial black;
-  font-size: 12pt;
+  text-decoration: underline;
 }
 
 .linie {
@@ -42,7 +42,12 @@ font-family: arial black;
 .footer{
   text-align: left;
   padding-bottom: 40px;
+
+
 }
- p {
+ li {
    font-size: 12pt;
+   padding-bottom: 5px;
+   font-size:
+
  }
