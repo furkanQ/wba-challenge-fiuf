@@ -17,7 +17,6 @@
 }
 .grid-pic {
 margin: auto;
-    border-radius: 50%;
 }
 
 .überschrift {
@@ -26,4 +25,9 @@ margin: auto;
 
 section {
   margin-bottom: 20px;
+}
+
+.linie {
+  display: block;
+  margin: auto;
 }
