@@ -6811,6 +6811,25 @@ body.scale--09 .screen {
 
 /* Screen Basics
 -----------------------------------------------------------------------------*/
+.show1 {
+  position: absolute;
+  width: 20px;
+  top: 500px;
+  right: 300px;
+}
+.show2 {
+  position: absolute;
+  width: 20px;
+  top: 400px;
+  right: 750px;
+}
+.show3 {
+  position: absolute;
+  width: 20px;
+  top: 300px;
+  right: 500px;
+}
+
 .screen {
   height: 1920px;
   width: 1080px;
@@ -6829,6 +6848,18 @@ body.scale--09 .screen {
 .screen--fluid {
   height: 100vh;
   width: 100%; }
+
+.showpopup {
+  display: block;
+    position: absolute;
+    top: 0px;
+    right: 220px;
+  height: 750px;
+  width: 1080px;
+  opacity: 0.9;
+  background-color: black;
+
+}
 
 /* Screen Layouts
 -----------------------------------------------------------------------------*/
@@ -6903,7 +6934,6 @@ body.scale--09 .screen {
   margin-left: 20px;
   margin-right: 20px;
   width: 44px; }
-
   .main-control__switch svg {
     height: 0; }
 
@@ -6932,11 +6962,6 @@ body.scale--09 .screen {
 .main-control__switch--volume {
   padding-left: 8px;
   padding-right: 8px; }
-
-.main-control__switch--showme {
-  padding-left: 14px;
-  padding-right: 14px; }
-}
 
 /* Screen Bottom Area
 -----------------------------------------------------------------------------*/
@@ -7013,7 +7038,3 @@ body.scale--09 .screen {
   right: 0;
   bottom: 0;
   left: 0; }
-
-.main-control__switch--showme{
-  width: 10px;
-}
