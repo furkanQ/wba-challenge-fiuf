@@ -17,7 +17,6 @@
 }
 .grid-pic {
 margin: auto;
-    border-radius: 50%;
 }
 
 .überschrift {
@@ -27,3 +26,29 @@ margin: auto;
 section {
   margin-bottom: 20px;
 }
+
+h2 {
+  font-size: 16pt;
+color: blue;
+font-family: arial black;
+  text-decoration: underline;
+}
+
+.linie {
+  display: block;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+.footer{
+  text-align: left;
+  padding-bottom: 40px;
+
+
+}
+ li {
+   font-size: 12pt;
+   padding-bottom: 5px;
+   font-size:
+
+ }
