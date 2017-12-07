@@ -37,7 +37,6 @@ font-family: arial black;
 .linie {
   display: block;
   margin: auto;
-  padding-bottom: 40px;
 }
 
 .footer{
@@ -49,6 +48,14 @@ font-family: arial black;
  li {
    font-size: 12pt;
    padding-bottom: 5px;
-   font-size:
-
  }
+
+p {
+text-align: center;
+text-decoration: underline;
+}
+
+p1 {
+text-decoration: underline;
+text-align: center; 
+}
