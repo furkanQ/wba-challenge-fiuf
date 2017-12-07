@@ -53,13 +53,17 @@ font-family: arial black;
 p.footer {
 text-align: center;
 text-decoration: underline;
+
+}
+.grid-container2 {
+display: grid;
+grid-template-columns: auto auto auto;
+text-decoration: underline;
+font-size: 9pt;
+
 }
 
-div.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
+.grid-item2{
+  text-align: left;
 
-footer.grid-item {
-    text-align: left;
 }
