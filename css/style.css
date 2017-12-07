@@ -1,7 +1,7 @@
 
 .social{
   margin: 5px;
-  border-radius: 20%;
+  border-radius: 30%;
 
 }
 
@@ -9,6 +9,7 @@
   display: grid;
   grid-template-columns: 50% 50%;
   margin-top: 20px;
+  font-family: lucida sans;
 }
 
 .grid-item {
@@ -21,6 +22,7 @@ margin: auto;
 
 .überschrift {
   text-align: center;
+  font-family: lucida sans;
 }
 
 section {
@@ -30,8 +32,10 @@ section {
 h2 {
   font-size: 16pt;
 color: blue;
-font-family: arial black;
+font-family: lucida sans;
   text-decoration: underline;
+  text-align: left;
+  padding-left: 30px;
 }
 
 h3{
@@ -47,16 +51,20 @@ padding-bottom:
   display: block;
   margin: auto;
 }
-
+.logo2{
+  display: block;
+    float: right;
+}
 .footer{
   text-align: left;
   padding-bottom: 40px;
-
+background-color: lightblue;
 
 }
  li {
-   font-size: 12pt;
+   font-size: 10pt;
    padding-bottom: 5px;
+font-family: lucida sans;
  }
 
 p.footer {
@@ -68,15 +76,28 @@ text-decoration: underline;
 display: grid;
 grid-template-columns: auto auto auto;
 text-decoration: underline;
-<<<<<<< HEAD
 text-align: center;
-=======
 font-size: 9pt;
+width: 20%;
+margin:auto;
 
 }
-
 .grid-item2{
   text-align: left;
+}
 
->>>>>>> 82937d0e7d5445372e97045897180e7ef2585f09
+.grid-container3 {
+display: grid;
+grid-template-columns: auto auto auto;
+font-size: 9pt;
+width: auto;
+margin:auto;
+}
+.grid-item3{
+  text-align: left;
+}
+.social2{
+  margin: 2px;
+  border-radius: 30%;
+margin-right: auto;
 }
