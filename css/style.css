@@ -53,9 +53,11 @@ font-family: arial black;
 p {
 text-align: center;
 text-decoration: underline;
+font-size: 9pt;
 }
 
 p1 {
 text-decoration: underline;
-text-align: center; 
+text-align: center;
+font-size: 9pt; 
 }
