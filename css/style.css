@@ -50,12 +50,16 @@ font-family: arial black;
    padding-bottom: 5px;
  }
 
-p {
+p.footer {
 text-align: center;
 text-decoration: underline;
 }
 
-p1 {
-text-decoration: underline;
-text-align: center; 
+div.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+footer.grid-item {
+    text-align: left;
 }
