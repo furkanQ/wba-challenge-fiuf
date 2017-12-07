@@ -6856,17 +6856,20 @@ body.scale--09 .screen {
     right: 220px;
   height: 750px;
   width: 1080px;
-  opacity: 0.0;
+  opacity: 0;
   background-color: black;
   color: white;
+      transition: all 1s;
 
 }
 
 .isvisible {
   display: block;
-  opacity: 1.0;
-    transition: opacity 2s;
-      transition: display 2s;
+
+}
+.isopaque {
+  opacity: 1;
+
 }
 
 .isnotvisible {
