@@ -158,12 +158,14 @@ document.getElementById("popup").classList.add("isvisible");});
 
 <script>
 document.getElementById("showmeid3").addEventListener("click", function(){
-document.getElementById("popup").classList.add("isvisible");});
+  document.getElementById("popup").classList.add("isvisible");
+});
 </script>
 
 <script>
 document.getElementById("popup").addEventListener("click", function(){
-document.getElementById("popup").classList.add("isnotvisible");});
+    document.getElementById("popup").classList.remove("isvisible");
+  });
 </script>
 
 </body>
