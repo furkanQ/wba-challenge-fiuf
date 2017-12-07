@@ -22,7 +22,6 @@ margin: auto;
 
 .überschrift {
   text-align: center;
-  font-family: lucida sans;
 }
 
 section {
@@ -31,11 +30,8 @@ section {
 
 h2 {
   font-size: 16pt;
-color: blue;
-font-family: lucida sans;
-  text-decoration: underline;
   text-align: left;
-  padding-left: 30px;
+  padding-left: 38px;
 }
 
 h3{
@@ -57,25 +53,24 @@ padding-bottom:
 }
 .footer{
   text-align: left;
-  padding-bottom: 40px;
-background-color: lightblue;
+  border-top: 1px solid;
+  border-color: grey;
+  padding: 30px;
+  margin: 30px;
 
 }
  li {
    font-size: 10pt;
    padding-bottom: 5px;
-font-family: lucida sans;
  }
 
 p.footer {
 text-align: center;
-text-decoration: underline;
 
 }
 .grid-container2 {
 display: grid;
-grid-template-columns: auto auto auto;
-text-decoration: underline;
+grid-template-columns: 25% 25% 75%;
 text-align: center;
 font-size: 9pt;
 width: 20%;
