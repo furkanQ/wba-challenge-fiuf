@@ -57,6 +57,7 @@ text: underline;
 .logo2{
   display: block;
     float: right;
+    margin: auto;
 }
 .footer{
   text-align: left;
@@ -78,11 +79,11 @@ text-align: center;
 .grid-container2 {
 display: grid;
 grid-template-columns: auto auto auto;
-text-align: center;
+text-align: justify;
 font-size: 9pt;
 width: 20%;
 margin:auto;
-margin-top: 50px;
+
 
 }
 .grid-item2 {
@@ -94,7 +95,10 @@ display: grid;
 grid-template-columns: auto auto auto;
 font-size: 9pt;
 width: auto;
-margin:auto;
+margin-bottom:0;
+margin-top: auto;
+margin-left: auto;
+margin-right: auto;
 }
 .grid-item3 {
   text-align: left;
