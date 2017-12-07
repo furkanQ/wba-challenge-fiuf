@@ -28,10 +28,20 @@ section {
 }
 
 h2 {
-  font-size: 12pt;
+  font-size: 16pt;
+color: blue;
+font-family: arial black;
 
+ }
 .linie {
   display: block;
   margin: auto;
-
 }
+
+.footer{
+  text-align: left;
+  ;
+}
+ .p {
+   font-size: 12pt;
+ }
